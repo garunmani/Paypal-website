@@ -1,5 +1,7 @@
 /*top navbar........*/
-
+body{
+  overflow-x: hidden;
+}
 .container-fluid{
     display: flex;
     position: fixed;
@@ -29,51 +31,23 @@
    margin-right: 90px;
 }
 
-/******media query for Navabr******/
-
-@media only screen and (max-width: 898px) {
-   .container-fluid {
-   width: 2100px;
-   margin-left: 500px;
-   display: flex;
-   flex-direction: row;
-   margin-top: 40px;
-   max-width: 720p;
-   position: fixed;
-   padding: 10px;
-}
-.logo{
-   margin-left: 40px;
-}
-.sig{
-
-   margin-right: 250px;
-   text-decoration: none;
-   
-}
-}
-
- 
 /*******Image part 2****/
+
+
  .img1{
     margin:10px 50px 20px 20px;
-  
+   
 }
 .imgcls{
-   width: 1550px;
+   width: 1450px;
    margin-top: 50px;
-   margin-left: 35px;
+   margin-left: 10px;
+   margin-right: 20px;
+   
+  
+   
 }
 
-@media only screen and (max-width: 800px){
-   .imgcls{
-      display: block;
-      max-width: 764px;
-      width: 100%;
-      top: 80px;
- }
- 
-}
 
 
 .datas{
@@ -117,38 +91,7 @@
 
 }
 
-/**Media query for send money and request money****/
-@media only screen and (max-width: 800px){
-   .three{
-      width: 100%;
-      margin-top: 80px;
-      margin-left:130px;
-   }
-   .pay{
-      margin: 2%;
-      width: 50%;
-      margin-right: 70px;
-   }
-}
-/****media for your easy way to send text security access****/
-@media screen and (max-width: 800px) 
-{
-   .datas{
-      display: flex;
-      flex-direction: column;
-    width: 80%;
- 
-    }
-   .data1{
-    margin-left: 70px;
-    }
-   .data2{
-    width: 90%;
-    margin-left:70px;
-    margin-right: 20px;
 
-   }
-}
 
 /****card *****/
 .cardcontainer{
@@ -214,31 +157,6 @@ padding-left: 20px;
    
    display: block;
 }
-/****media query for card***/
-@media screen and (max-width: 800px) {
-   .cardcontainer{   
-     
-     margin: 0%;
-   
-     display: grid;
-     grid-template-columns: repeat(1, 1fr);
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  width: 70%;
-      height: 1450px;
-      margin-left: 100px;
-      margin-right:140px;
-      padding-top: 60px;
-      
-      
-   }
-   .card-body, .card-body1{
-      border-right-style: none;
-      
-   }
-   .card-body,.rounded,.rounded1{
-      width: 80%;
-   }
-   }
 
 /*** transaction fees part****/
 .details{
@@ -262,17 +180,7 @@ padding-left: 20px;
    background-color: blue;
 }
 
-/****media query for transaction fees part***/
-@media screen and (max-width: 800px) {
-   .details{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 70%;
-      margin-left: 90px;
 
-   }
-}
 /***details for learn more about sending paypal***/
 .imp1{
    display: block;
@@ -280,16 +188,6 @@ padding-left: 20px;
 }
 .imp2{
    color: black;
-}
-@media screen and (max-width: 800px) 
-{
-   .imp1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin-left: 15%;
-      width: 70%;
-      }
 }
 
 
@@ -303,12 +201,7 @@ padding-left: 20px;
    margin-top: 40px;
 }
 
-/****media query for image***/
-@media only screen and (max-width: 898px){
-   .man1{
-      width: 100%;
-   }
-}
+
 
 /*****Request money collect money payme***/
 .service{
@@ -361,40 +254,7 @@ padding-left: 20px;
    justify-content: space-between;
   }
 
-/*** media query for req money, collect money payme***/
-  
-@media screen and (max-width: 800px) {
-   .service{
-      height: 700px;
-   }
-   .servicecontainer{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 550px;
-   }
-   .servicepara{
-      font-size: medium;
-      margin-left: 5%;
-   }
-   .service1 {
-      margin-left: 5%;
-   }
-   .service2 {
-      margin-left: 5%;
-      margin-top: 10px;
-     
-   }
-   .moneyreq{
-      margin-left: 70px;
-   }
-   .service3 {
-      margin-left: 5%;
-   }
-   .service4 {
-      margin-left: 5%;
-   }
-}
+
   
 /****app download****/
 .download{
@@ -413,40 +273,11 @@ padding-left: 20px;
 }
 .apple1{
    color: black;
-   padding: 20px;
+   padding: 5px;
   
 }
 
-/****media query for app download***/
-@media only screen and (max-width: 800px) {
-   
-   .download{
-      display: flex;
-      flex-direction: column;
-   
-   }.app{
-      
-      width: 100%;
-      margin-bottom: 0%;
-      margin-top: 10%;
-   }
-  .appinfo{
-   margin-top: 0%;
-   width: 70%;
-   margin-left: 90px;
-   margin-bottom: 100px;
-   font-weight: 500;
-   font-size: larger;
-  }
-  .store{
-   display: inline;
-   width: 80%;
-   font-size: 20px;
-   margin-left: 70px;
-   padding:.5px
-  }
-   }
-   
+
  
   /*****send money button***/ 
 .bton{
@@ -478,21 +309,7 @@ padding-left: 20px;
    font-weight: 100;
    font-size: 20px;
  }
-/****media query for send money and Ready to send money text***/
- @media screen and (max-width: 800px){
-   
-   .message{
-      display: flex;
-      flex-direction: column;
-   }.bton{
-      margin-top: 150px;
-      left: 40px;
-      height: 80px;
-      margin-right: 80px;
-      border-radius: 10px;
-      
-   }
- }
+
  /******information para about paypal****/
  .condition{
    display: block;
@@ -509,14 +326,16 @@ padding-left: 20px;
  }
  
  .img1 .imgcls{
-   width: 1550px;
-   height: auto;
+   width: 1450px;
+    height: 650px;
+    margin-left: 10px;
+    margin-right: 5px;
  }
  
  .img1 .imagebtn {
    position: absolute;
    top: 75%;
-   left: 150%;
+   left: 140%;
    transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
    background-color: dodgerblue;
@@ -613,3 +432,209 @@ padding-left: 20px;
    padding: 10px 20px;
    }
    }
+
+
+   /*** media query code******/
+
+   /******media query for Navabr******/
+
+@media only screen and (max-width: 898px)  {
+   .container-fluid {
+   width: 2100px;
+   margin-left: 500px;
+   display: flex;
+   flex-direction: row;
+   margin-top: 40px;
+   max-width: 720p;
+   position: fixed;
+   padding: 10px;
+}
+.logo{
+   margin-left: 40px;
+}
+.sig{
+
+   margin-right: 250px;
+   text-decoration: none;
+   
+}
+}
+
+
+/***media quer for imagr*/
+@media only screen and (max-width: 800px){
+   .imgcls{
+      display: block;
+      max-width: 764px;
+      width: 100%;
+      top: 80px;
+ }
+}
+
+
+/**Media query for send money and request money****/
+@media only screen and (max-width: 800px){
+   .three{
+      width: 100%;
+      margin-top: 80px;
+      margin-left:130px;
+   }
+   .pay{
+      margin: 2%;
+      width: 50%;
+      margin-right: 70px;
+   }
+}
+/****media for your easy way to send text security access****/
+@media screen and (max-width: 800px) 
+{
+   .datas{
+      display: flex;
+      flex-direction: column;
+    width: 80%;
+ 
+    }
+   .data1{
+    margin-left: 70px;
+    }
+   .data2{
+    width: 90%;
+    margin-left:70px;
+    margin-right: 20px;
+
+   }
+}
+/****media query for card***/
+@media screen and (max-width: 800px) {
+   .cardcontainer{   
+     
+     margin: 0%;
+   
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 70%;
+      height: 1450px;
+      margin-left: 100px;
+      margin-right:140px;
+      padding-top: 60px;
+      
+      
+   }
+   .card-body, .card-body1{
+      border-right-style: none;
+      
+   }
+   .card-body,.rounded,.rounded1{
+      width: 80%;
+   }
+   }
+
+   /****media query for transaction fees part***/
+@media screen and (max-width: 800px) {
+   .details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 70%;
+      margin-left: 90px;
+
+   }
+}
+
+@media screen and (max-width: 800px) 
+{
+   .imp1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 15%;
+      width: 70%;
+      }
+}
+/****media query for image***/
+@media only screen and (max-width: 898px){
+   .man1{
+      width: 100%;
+   }
+}
+
+/*** media query for req money, collect money payme***/
+  
+@media screen and (max-width: 800px) {
+   .service{
+      height: 700px;
+   }
+   .servicecontainer{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 550px;
+   }
+   .servicepara{
+      font-size: medium;
+      margin-left: 5%;
+   }
+   .service1 {
+      margin-left: 5%;
+   }
+   .service2 {
+      margin-left: 5%;
+      margin-top: 10px;
+     
+   }
+   .moneyreq{
+      margin-left: 70px;
+   }
+   .service3 {
+      margin-left: 5%;
+   }
+   .service4 {
+      margin-left: 5%;
+   }
+}
+/****media query for app download***/
+@media only screen and (max-width: 800px) {
+   
+   .download{
+      display: flex;
+      flex-direction: column;
+   
+   }.app{
+      
+      width: 100%;
+      margin-bottom: 0%;
+      margin-top: 10%;
+   }
+  .appinfo{
+   margin-top: 0%;
+   width: 70%;
+   margin-left: 90px;
+   margin-bottom: 100px;
+   font-weight: 500;
+   font-size: larger;
+  }
+  .store{
+   display: inline;
+   width: 80%;
+   font-size: 20px;
+   padding:.5px
+  }
+   }
+   /****media query for send money and Ready to send money text***/
+ @media screen and (max-width: 800px){
+   
+   .message{
+      display: flex;
+      flex-direction: column;
+   }.bton{
+      margin-top: 150px;
+      left: 40px;
+      height: 80px;
+      margin-right: 80px;
+      border-radius: 10px;
+      
+   }
+ }
+   
+
