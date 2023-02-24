@@ -638,3 +638,380 @@ padding-left: 20px;
  }
    
 
+ @media screen and (max-width: 450px) {
+   .navbar-header {
+     width: 100%;
+     text-align: center;
+   }
+   .navbar-nav {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding: 0;
+   }
+   .navbar-nav li {
+     width: 100%;
+     border-top: 1px solid #ccc;
+   }
+   .navbar-nav li:last-child {
+     border-bottom: 1px solid #ccc;
+   }
+   .navbar-nav li a {
+     display: block;
+     padding: 10px;
+     text-align: center;
+   }
+   .sig {
+     display: block;
+     margin-top: 10px;
+   }
+ }
+ 
+ @media only screen and (min-width: 310px) and (max-width: 450px) {
+   .cardcontainer{   
+     
+    
+         display: grid;
+      
+         grid-template-columns: repeat(1, 1fr);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+      width: 1000px;
+          height: 3700px;
+          margin-left: 220px;
+          margin-right:140px;
+          padding-top: 60px;
+          align-items: center;
+         
+          
+          
+       }
+       .card-title{
+         font-size: 40px;
+         margin-left: 10px;
+       }
+       .card-body, .card-body1{
+          border-right-style: none;
+          font-size: 40px;
+          
+       }
+       .card-body,.rounded{
+          width:90%;
+          height: 70%;
+          font-size: 40px;
+       }
+       .card-body1,.rounded1{
+         width: 90%;
+         height: 70%;
+      }
+      .card-body2,.rounded2{
+         width: 90%;
+         height: 70%;
+         font-size: 40px;
+      }
+      .H6{
+         font-size: 40px;
+      }
+
+       }
+       @media only screen and (min-width: 310px) and (max-width: 450px) {
+         .service{
+            width: 990px;
+            height: 770px;
+            margin-left: 50%;
+            margin-top: 80px;
+            font-size: 50px;
+         }
+         .servicecontainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 80%;
+            height: 650px;
+            
+
+         }
+         .servicepara{
+            font-size: 40px;
+            margin-left: 5%;
+            padding: 10px;
+         }
+         .service1 {
+            margin-left: 5%;
+            font-size: 30px;
+         }
+         .service2 {
+            margin-left: 5%;
+            margin-top: 10px;
+            font-size: 30px;
+           
+         }
+         .moneyreq{
+            margin-left: 70px;
+            font-size: 30px;
+         }
+         .reqmoney{
+            font-size: 30px;
+         }
+         .reqmoney1{
+            font-size: 30px;
+         }
+         .reqmoney2{
+            font-size: 30px;
+         }
+         .reqmoney3{
+            font-size: 30px;
+         }
+         .reqmoney4{
+            font-size: 30px;
+         }
+         .service3 {
+            margin-left: 5%;
+            font-size: 30px;
+         }
+         .service4 {
+            margin-left: 5%;
+            font-size: 30px;
+         }
+       }
+       
+      @media only screen and (min-width: 310px) and (max-width: 450px){
+         .man1{
+            width: 385%;
+         }
+      }
+      
+
+   @media only screen and (min-width: 310px) and (max-width: 450px)
+   {
+   .imp1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 200px;
+   padding: 50px;
+      font-size: 35px;
+      width: 200%;
+      }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   .details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin-left: 90%;
+   
+
+   }
+   .details2{
+      width: 200%;
+   }
+   .details3{
+      width: 200%;
+   }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+.download{
+   display: flex;
+   flex-direction: column;
+   width: 380%;
+
+}.app{
+   
+   width: 100%;
+   margin-bottom: 0%;
+   margin-top: 10%;
+}
+.appinfo{
+margin-top: 0%;
+width: 300%;
+margin-left: 90px;
+margin-bottom: 100px;
+font-weight: 500;
+font-size: 40px;
+
+margin-left: 25%;
+}
+.store{
+display: inline;
+width: 80%;
+font-size: 50px;
+padding:.5px;
+margin-left: 25%;
+}
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   .condition{
+      width: 300%;
+      margin-left: 40px;
+      font-size: 40px;
+   }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   .message{
+      margin-left: 70%;
+      width: 200%;
+   }
+   .line5{
+      display: none;
+   }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   .datas{
+      display: flex;
+      flex-direction: column;
+    width: 140%;
+    margin-top: 30px;
+ 
+    }
+   .data1{
+    margin-left: 100px;
+    margin-top: 70px;
+   
+    }
+   .data2{
+    width:250%;
+     margin-top: 0%;
+    margin-left:70px;
+    margin-right: 20px;
+
+   }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   body{
+      overflow-x: hidden;
+   }
+}
+@media only screen and (min-width: 310px) and (max-width: 450px){
+   .para{
+      font-size: 60px;
+   }
+   .para2{
+      font-size: 40px;
+   }
+   .bton{
+      width: 60%;
+      height: 100px;
+      
+   }
+   .btn{
+    margin-left: 30%;
+    width: 40%;
+    height: 90%;
+   }
+  
+   }
+   @media only screen and (min-width: 310px) and (max-width: 450px){
+      .three{
+         width: 300%;
+         margin-top: 120px;
+         margin-left:200px;
+      }
+      .money{
+         font-size: 50px;
+      }
+      .pipe{
+         width: 9%;
+      }
+      .req{
+         font-size: 50px;
+      }
+      .pay{
+
+      margin-left:15%;
+   }
+   }
+   @media only screen and (min-width: 310px) and (max-width: 450px){
+      
+      .img1 .imagebtn {
+         top: 70%;
+         left: 70%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         width: 200px;
+         height: 40px;
+         font-size: 14px;
+         padding: 10px 20px;
+        
+         }
+         .imgcls{
+            margin-top: 40%;
+            width: 2000px;
+            
+            
+      
+         }
+         }
+
+         @media only screen and (min-width: 310px) and (max-width: 450px){
+            .second{
+               width: 400%;
+               height: 900px;
+               
+            }
+            .img1{
+               top: 20%;
+               left: 20%;
+               margin-top: 0%;
+               margin-right: 0%;
+            }
+         }
+        
+            @media only screen and (min-width: 310px) and (max-width: 400px) {
+               
+               .topnav1 {
+                 
+            width: 380%;
+            height: 300px;
+            font-size: 60px;
+            margin-bottom: 10px;
+               }
+               
+               .topnav-right1 {
+                 
+              font-size: 50px;
+               }
+             }
+             @media only screen and (min-width: 310px) and (max-width: 400px) {
+               
+               .topnav {
+                 
+            width: 380%;
+            font-size: 40px;
+            margin-bottom: 10px;
+               }
+               
+               .topnav-right{
+                 
+              font-size: 50px;
+               }
+             }
+           
+             @media only screen and (min-width: 310px) and (max-width: 400px){
+               .container-fluid{
+                 
+                  width: 60%;
+                  height: 20%;
+                  display: flex;
+                  flex-direction: rows;
+               
+               }
+               .menu{
+                  display: flex;
+                  font-size: 40px;
+                  background-color: #04AA6D;
+                  margin-top: 40px;
+                  margin-left: 10px;
+                  margin-right: 30px;
+      
+               padding: 5px;
+               }
+               .navbar-header{
+                  
+               }
+             }
+             
+             
+
+     
+   
